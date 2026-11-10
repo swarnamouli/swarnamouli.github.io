@@ -2,14 +2,14 @@
 
 A responsive, multi-page personal website for **Swarnamouli Majumdar**, Ph.D. candidate at Concordia University and Founder & CEO of Zenext AI. Designed for **GitHub Pages** with no framework, package manager, build service, analytics, cookies, or paid hosting requirements.
 
-The design uses an editorial academic style, a warm rose-gold palette, deep ink typography, and research-forward content. It is inspired by the clean, direct presentation of the user-supplied academic portfolio reference, without copying its code or assets.
+The design uses an editorial academic style, a restrained ink, copper and neutral palette, deep ink typography, and research-forward content. It is inspired by the clean, direct presentation of the user-supplied academic portfolio reference, without copying its code or assets.
 
 ## Pages
 
 - **`index.html`** — About, research agenda, highlights, selected publications, innovation projects, conference engagements, recognition, experience, teaching, contact.
 - **`research.html`** — Five detailed research directions with methods, research questions, and linked publications.
-- **`publications.html`** — 16 curated entries with a working title/topic search, year/type and research-topic filters, DOI links and a CSV download.
-- **`news.html`** — 11 source-linked news, interviews, podcast episodes, university features and recognition items, with topic search and filters.
+- **`publications.html`** — 30 linked research records with a working title/topic search, year/type and research-topic filters, DOI links and a CSV download.
+- **`news.html`** — 12 source-linked news, interviews, podcast episodes, university features and recognition items, with topic search and filters.
 - **`about.html`** — Academic and professional profile, career timeline, education, awards, teaching, reviewing, and outreach.
 
 - **`gallery.html`** — A conference and demonstration gallery featuring ICACIML 2026 keynote and panel moments, CCNCPS 2025 and InCIT 2025 recognitions, ICCE 2025 and autonomous-vehicle presentations, public-safety technology demonstrations, and curated event photography.
@@ -150,3 +150,23 @@ After editing, run `python3 build.py`, commit changed files, and push to `main`.
 - **IEEE ICCE 2025:** IEEE publication DOI: https://doi.org/10.1109/ICCE63647.2025.10930164
 
 **Publishing:** Files in this package have not been uploaded to GitHub and are not yet live.
+
+
+## 2026 redesign update
+
+- **Home:** intentionally shortened, with four prominent links to Research, Publications, Gallery and Career. The biography portrait remains only on the landing page, and still includes its short caption.
+- **Gallery:** 29 photos in a responsive thumbnail grid. Filter by event category, search captions, and open selected photos in a keyboard-accessible modal with previous/next controls. `assets/thumbs/` contains optimized thumbnail files; originals stay in `assets/photos/`.
+- **Contact:** the header Connect link points to the home page contact area. The contact area includes an email-compose link, copyable email address, and direct LinkedIn link. A mailto link alone will only work when an email client is configured.
+- **Publications:** searchable 30-entry collection, 29 DOI links and one clearly labelled working paper. The Google Scholar button links to the author's full, live bibliography; the local list is not a complete Google Scholar export.
+- **Note on verification:** The former V-MEDrone IEEE Access citation could not be independently verified; it is labelled a working manuscript and no longer carries an unverified DOI or journal claim.
+
+### Uploading the replacement files on GitHub
+
+1. Your repository is `swarnamouli/swarnamouli.github.io`; keep the existing `assets/photos/` originals.
+2. For a complete replacement, extract the FULL ZIP and drag its contents (including the actual `assets` and `data` folders) to your repository's **Add file > Upload files** page. Preserve the folder structure. Commit.
+3. For a smaller update, use the UPDATE-ONLY ZIP. It contains modified root pages, scripts, styles, thumbnails and bibliography, and does not include unchanged original photos. Do not delete your existing `assets/photos/` folder.
+4. You can use GitHub Desktop or a local git client if the browser uploader will not overwrite existing filenames.
+5. Check Settings > Pages for `Deploy from a branch`, `main`, `/(root)`. Check `https://swarnamouli.github.io/` after the deploy succeeds.
+6. Any root-level duplicate images from the earlier upload can be removed in a later cleanup; the website references the folders.
+
+All files needed for the complete site are bundled in the FULL ZIP.

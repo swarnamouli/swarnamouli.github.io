@@ -129,4 +129,80 @@
       }
     });
   });
+
+  // In-page photo viewer: category chips, search, arrows, keyboard, escape, backdrop.
+  const galleryTiles = $$('#gallery-grid .gallery-tile');
+  const gallerySearch = $('#gallery-search');
+  const galleryFilters = $$('.gallery-filter');
+  const galleryDialog = $('#gallery-dialog');
+  let currentCategory = 'All';
+  let activePhoto = 0;
+  let originControl = null;
+  if (galleryTiles.length) {
+    const shownTiles = () => galleryTiles.filter(item => !item.hidden);
+    const filterGallery = () => {
+      const q = (gallerySearch?.value || '').toLowerCase().trim();
+      let count = 0;
+      galleryTiles.forEach(tile => {
+        const visible = (currentCategory === 'All' || tile.dataset.galleryCategory === currentCategory) &&
+          (!q || (tile.dataset.gallerySearch || '').includes(q));
+        tile.hidden = !visible;
+        if (visible) count++;
+      });
+      if ($('#gallery-visible')) $('#gallery-visible').textContent = String(count);
+      if ($('#gallery-empty')) $('#gallery-empty').hidden = count > 0;
+    };
+    gallerySearch?.addEventListener('input', filterGallery);
+    galleryFilters.forEach(chip => chip.addEventListener('click', () => {
+      currentCategory = chip.dataset.galleryFilter || 'All';
+      galleryFilters.forEach(item => {
+        const active = item === chip;
+        item.classList.toggle('is-active', active);
+        item.setAttribute('aria-pressed', String(active));
+      });
+      filterGallery();
+    }));
+    const renderDialogPhoto = () => {
+      const visible = shownTiles();
+      if (!visible.length) return;
+      activePhoto = (activePhoto + visible.length) % visible.length;
+      const tile = visible[activePhoto];
+      $('#gallery-dialog-image').src = tile.dataset.fullImage;
+      $('#gallery-dialog-image').alt = tile.querySelector('img')?.alt || tile.dataset.galleryTitle;
+      $('#gallery-dialog-title').textContent = tile.dataset.galleryTitle;
+      $('#gallery-dialog-caption').textContent = tile.dataset.galleryCaption;
+      $('#gallery-position').textContent = `${activePhoto + 1} / ${visible.length}`;
+    };
+    galleryTiles.forEach(tile => tile.addEventListener('click', () => {
+      originControl = tile;
+      activePhoto = shownTiles().indexOf(tile);
+      renderDialogPhoto();
+      if (typeof galleryDialog?.showModal === 'function') galleryDialog.showModal();
+    }));
+    $('#gallery-close')?.addEventListener('click', () => galleryDialog?.close());
+    $('#gallery-prev')?.addEventListener('click', () => {activePhoto--;renderDialogPhoto();});
+    $('#gallery-next')?.addEventListener('click', () => {activePhoto++;renderDialogPhoto();});
+    galleryDialog?.addEventListener('close', () => {
+      $('#gallery-dialog-image')?.removeAttribute('src');
+      originControl?.focus();
+    });
+    galleryDialog?.addEventListener('click', event => {if (event.target === galleryDialog) galleryDialog.close();});
+    galleryDialog?.addEventListener('keydown', event => {
+      if (event.key === 'ArrowLeft') {activePhoto--;renderDialogPhoto();}
+      if (event.key === 'ArrowRight') {activePhoto++;renderDialogPhoto();}
+    });
+  }
+
+  // One-click contact that also works when no desktop email client is configured.
+  $$('[data-copy-email]').forEach(button => button.addEventListener('click', async () => {
+    const email = button.dataset.copyEmail;
+    if (!email) return;
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
+      await navigator.clipboard.writeText(email);
+      button.textContent = 'Email copied ✓';
+    } catch (_) {
+      window.prompt('Copy this email address:', email);
+    }
+  }));
 })();
