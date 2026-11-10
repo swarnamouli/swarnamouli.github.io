@@ -1,0 +1,720 @@
+{
+  "site": {
+    "name": "Swarnamouli Majumdar",
+    "tagline": "Researcher · Founder · Public-Safety Technologist",
+    "location": "Montréal, Québec, Canada",
+    "email": "swarna1988.19@gmail.com",
+    "orcid": "0000-0001-6443-4471",
+    "scopus": "57782341500",
+    "linkedin": "https://www.linkedin.com/in/swarnamouli/",
+    "website": "https://swarnamouli.github.io/",
+    "portrait": "assets/photos/swarnamouli-bio-portrait.png"
+  },
+  "research": [
+    {
+      "key": "autonomy",
+      "number": "01",
+      "label": "Intelligent autonomy",
+      "title": "Learning to navigate complex, high-stakes environments",
+      "summary": "Developing data-informed approaches to forecasting, routing, and sequential decision-making for autonomous vehicles and connected public-safety systems.",
+      "question": "How can autonomous systems make useful decisions under uncertainty while remaining responsive to human direction?",
+      "methods": [
+        "Reinforcement learning",
+        "DQN / DDQN / PPO",
+        "Spatiotemporal forecasting",
+        "Graph-based planning",
+        "Simulation and evaluation"
+      ],
+      "contribution": "Risk-aware patrol planning, urban mobility modeling, and adaptive routing informed by changing operational conditions.",
+      "publication_ids": [
+        "patrol-survey-2026",
+        "patrol-planning-2025",
+        "police-vehicles-2026"
+      ]
+    },
+    {
+      "key": "response",
+      "number": "02",
+      "label": "Emergency-response systems",
+      "title": "Making every second of emergency response count",
+      "summary": "Studying the role of unmanned aerial systems, connected sensing, and decision support in triage, search and rescue, and firefighter operations.",
+      "question": "Where can autonomous assistance improve response workflows without obscuring accountability or operator control?",
+      "methods": [
+        "UAV operations",
+        "Triage-aware dispatch",
+        "Capacity-constrained simulation",
+        "IoT sensing",
+        "Human-in-the-loop interfaces"
+      ],
+      "contribution": "Medical-drone dispatch models and research frameworks for aerial situational awareness and emergency coordination.",
+      "publication_ids": [
+        "vmedrone-2026",
+        "voice-drones-2026",
+        "skysentience-2026"
+      ]
+    },
+    {
+      "key": "voice",
+      "number": "03",
+      "label": "Voice-first computing",
+      "title": "Technology that works when hands and eyes are occupied",
+      "summary": "Exploring hands-free, voice-enabled interfaces, connected devices, and resilient communication tools designed around the realities of field operations.",
+      "question": "How can responders interact with critical information naturally, quickly, and reliably while working under pressure?",
+      "methods": [
+        "Speech and language interfaces",
+        "Edge computing",
+        "Human–computer interaction",
+        "Resilient communications",
+        "System integration"
+      ],
+      "contribution": "Voice-enabled first-responder concepts, drone interaction research, and connected IoT architectures.",
+      "publication_ids": [
+        "voice-drones-2026",
+        "voice-iot-2024",
+        "communication-2025"
+      ]
+    },
+    {
+      "key": "trust",
+      "number": "04",
+      "label": "Accountable AI",
+      "title": "Building intelligence that can be examined and trusted",
+      "summary": "Integrating uncertainty, privacy, software assurance, transparency, and human authority into AI-enabled systems that may affect public safety.",
+      "question": "What should a system be permitted to recommend, and how can its decisions be challenged and audited?",
+      "methods": [
+        "Human oversight",
+        "AI governance",
+        "Zero Trust architecture",
+        "Requirements traceability",
+        "Fairness and auditability"
+      ],
+      "contribution": "Sociotechnical frameworks for accountable police vehicles, governed UAV robotics, and decision-support systems.",
+      "publication_ids": [
+        "zero-trust-2026",
+        "skysentience-2026",
+        "police-vehicles-2026"
+      ]
+    },
+    {
+      "key": "mobility",
+      "number": "05",
+      "label": "Smart cities & mobility",
+      "title": "Connecting mobility, urban data, and human needs",
+      "summary": "Examining how intelligent transportation systems and cyber-physical infrastructure can strengthen urban resilience and equitable access to services.",
+      "question": "How do sensing, communication, and decision models translate into safer and more inclusive urban operations?",
+      "methods": [
+        "Intelligent transportation",
+        "Connected vehicles",
+        "Predictive analytics",
+        "Cyber-physical systems",
+        "Human-centered evaluation"
+      ],
+      "contribution": "Studies of traffic coordination, autonomous first-response vehicles, location resilience, and smart-city intelligence.",
+      "publication_ids": [
+        "human-traffic-2026",
+        "resilient-cities-2025",
+        "gps-security-2025"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "vmedrone-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Emergency response",
+      "title": "V-MEDrone: Triage-Aware Medical Drone Dispatch with Human Oversight and Capacity-Constrained Simulation",
+      "venue": "IEEE Access, vol. 14",
+      "doi": "10.1109/ACCESS.2026.3741367",
+      "featured": true
+    },
+    {
+      "id": "patrol-survey-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Intelligent autonomy",
+      "title": "Adaptive Patrol Routing in Smart Cities: A Systematic Survey and Hybrid Multi-Agent Reinforcement Learning Framework",
+      "venue": "IEEE Access, vol. 14",
+      "doi": "10.1109/ACCESS.2026.3723316",
+      "featured": true
+    },
+    {
+      "id": "police-vehicles-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Accountable AI",
+      "title": "Autonomous Police Vehicles for Predictive Policing: A Sociotechnical Framework for Accountable Deployment",
+      "venue": "IEEE Access, vol. 14",
+      "doi": "10.1109/ACCESS.2026.3706076",
+      "featured": true
+    },
+    {
+      "id": "zero-trust-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Accountable AI",
+      "title": "A systematic review and Zero Trust governance framework for agentic UAV robotics in public safety",
+      "venue": "Discover Robotics, vol. 2, article 26",
+      "doi": "10.1007/s44430-026-00042-4",
+      "featured": true
+    },
+    {
+      "id": "skysentience-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Accountable AI",
+      "title": "The SkySentience conceptual framework for accountable drone decision support in public safety",
+      "venue": "Discover Informatics, vol. 1, article 16",
+      "doi": "10.1007/s44564-026-00018-x",
+      "featured": true
+    },
+    {
+      "id": "human-traffic-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Smart cities & mobility",
+      "title": "Human centered artificial intelligence for smart city traffic coordination",
+      "venue": "Discover Artificial Intelligence, vol. 6, article 955",
+      "doi": "10.1007/s44163-026-02062-w",
+      "featured": false
+    },
+    {
+      "id": "voice-drones-2026",
+      "year": 2026,
+      "type": "Journal",
+      "topic": "Voice-first computing",
+      "title": "Voice-Controlled Drones for Emergency Response: AI at the Frontline",
+      "venue": "IEEE Consumer Electronics Magazine, 15(3)",
+      "doi": "",
+      "featured": true
+    },
+    {
+      "id": "patrol-planning-2025",
+      "year": 2025,
+      "type": "Journal",
+      "topic": "Intelligent autonomy",
+      "title": "Spatiotemporal Risk-Aware Patrol Planning Using Value-Based Policy Optimization and Sensor-Integrated Graph Navigation in Urban Environments",
+      "venue": "Applied Sciences, 15(15), 8565",
+      "doi": "10.3390/app15158565",
+      "featured": true
+    },
+    {
+      "id": "gps-security-2025",
+      "year": 2025,
+      "type": "Journal",
+      "topic": "Smart cities & mobility",
+      "title": "From Vulnerability to Resilience: Securing Public Safety GPS and Location Services with Smart Radio, Blockchain, and AI-Driven Adaptability",
+      "venue": "Electronics, 14(6), 1207",
+      "doi": "10.3390/electronics14061207",
+      "featured": false
+    },
+    {
+      "id": "agentic-mission-2025",
+      "year": 2025,
+      "type": "Conference",
+      "topic": "Accountable AI",
+      "title": "Agentic AI for Mission Adaptation: A Distributed Cognition Framework for Air Force Operations",
+      "venue": "International Conference on Information Technology (InCIT), IEEE",
+      "doi": "",
+      "featured": false
+    },
+    {
+      "id": "resilient-cities-2025",
+      "year": 2025,
+      "type": "Conference",
+      "topic": "Smart cities & mobility",
+      "title": "Resilient Smart Cities Through AI-Enabled Cyber-Physical Systems: Autonomous Vehicles as Decentralized First Responders",
+      "venue": "CCNCPS, IEEE",
+      "doi": "",
+      "featured": false
+    },
+    {
+      "id": "smarter-patrols-2025",
+      "year": 2025,
+      "type": "Conference",
+      "topic": "Intelligent autonomy",
+      "title": "Smarter Patrols, Safer Streets: A Dynamic Framework for Crime-Aware Routing and Replanning",
+      "venue": "IEEE UEMCON",
+      "doi": "",
+      "featured": false
+    },
+    {
+      "id": "communication-2025",
+      "year": 2025,
+      "type": "Conference",
+      "topic": "Voice-first computing",
+      "title": "First Responder Communication Systems: Interoperability and Situational Awareness Optimization",
+      "venue": "IEEE Computing and Communication Workshop and Conference (CCWC)",
+      "doi": "",
+      "featured": false
+    },
+    {
+      "id": "intelligent-drones-2025",
+      "year": 2025,
+      "type": "Conference",
+      "topic": "Emergency response",
+      "title": "Intelligent Drones for Transforming Emergency Medical Response and Hospital Operations",
+      "venue": "IEEE International Conference on Consumer Electronics (ICCE)",
+      "doi": "",
+      "featured": false
+    },
+    {
+      "id": "voice-iot-2024",
+      "year": 2024,
+      "type": "Conference",
+      "topic": "Voice-first computing",
+      "title": "Voice AI IoT Model for Rescue Operations Among First Responders for Disaster Management",
+      "venue": "International Symposium on Networks, Computers and Communications (ISNCC), IEEE",
+      "doi": "",
+      "featured": false
+    },
+    {
+      "id": "fire-safety-2023",
+      "year": 2023,
+      "type": "Conference",
+      "topic": "Emergency response",
+      "title": "A Cloud-Based Fire Safety System for Emergency Responders and Civic Community",
+      "venue": "IEEE Long Island Systems, Applications and Technology Conference (LISAT)",
+      "doi": "",
+      "featured": false
+    }
+  ],
+  "projects": [
+    {
+      "eyebrow": "Research framework · 2026",
+      "name": "V-MEDrone",
+      "title": "Medical drone dispatch shaped by triage and real-world constraints",
+      "description": "A research model for prioritizing medical-drone missions while accounting for limited capacity, coordination needs, and the continued role of human operators.",
+      "link_id": "vmedrone-2026",
+      "category": "Air & emergency response",
+      "number": "01"
+    },
+    {
+      "eyebrow": "Research framework · 2026",
+      "name": "SkySentience",
+      "title": "Accountable decision support for public-safety drones",
+      "description": "A conceptual architecture examining uncertainty, transparency, human authorization, and safeguards around UAV-assisted situational awareness.",
+      "link_id": "skysentience-2026",
+      "category": "Governance & human oversight",
+      "number": "02"
+    },
+    {
+      "eyebrow": "Research & analysis · 2025–26",
+      "name": "Risk-aware patrol planning",
+      "title": "Adaptive routes for changing urban conditions",
+      "description": "Research combining spatiotemporal modeling, graph navigation, and reinforcement-learning approaches to study adaptive patrol decisions.",
+      "link_id": "patrol-planning-2025",
+      "category": "Autonomy & smart cities",
+      "number": "03"
+    },
+    {
+      "eyebrow": "Zenext AI · R&D focus",
+      "name": "Voice-first response systems",
+      "title": "Hands-free information access for field responders",
+      "description": "Voice-enabled assistance and connected-system concepts designed to reduce interaction demands when field personnel need to keep their attention on the task.",
+      "link_id": "voice-drones-2026",
+      "category": "Voice AI & connected systems",
+      "number": "04"
+    }
+  ],
+  "awards": [
+    {
+      "year": "2025",
+      "name": "Best Paper Awards",
+      "detail": "IEEE UEMCON, CCNCPS, and InCIT",
+      "kind": "Research recognition"
+    },
+    {
+      "year": "2025",
+      "name": "Best Session Research Presentation",
+      "detail": "IEEE International Conference on Consumer Electronics (ICCE)",
+      "kind": "Research presentation"
+    },
+    {
+      "year": "2024",
+      "name": "UAS Pulse Accelerator selection",
+      "detail": "Zenext AI selected among seven teams for NIST/PSCR accelerator",
+      "kind": "Competitive selection"
+    },
+    {
+      "year": "2020",
+      "name": "First Prize Innovation Award",
+      "detail": "NIST/PSCR Tech to Protect Challenge",
+      "kind": "Innovation"
+    },
+    {
+      "year": "2019",
+      "name": "Second Prize",
+      "detail": "AT&T FirstNet Hackathon",
+      "kind": "Innovation"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2023 — Present",
+      "role": "Doctoral Researcher",
+      "organization": "Concordia University",
+      "location": "Montréal, Canada",
+      "description": "Research in machine learning, adaptive planning, and trustworthy decision support for autonomous and connected public-safety systems.",
+      "type": "Academic"
+    },
+    {
+      "period": "2020 — Present",
+      "role": "Founder & Chief Executive Officer",
+      "organization": "Zenext AI",
+      "location": "Canada / United States",
+      "description": "Lead research and development across voice-enabled AI, autonomous systems, emergency-response software, human–AI interaction, and cross-sector technology collaborations.",
+      "type": "Leadership"
+    },
+    {
+      "period": "2021 — 2023",
+      "role": "Senior Data Analytics",
+      "organization": "System Soft Technologies",
+      "location": "United States",
+      "description": "Worked on software requirements, SQL modeling, testing and analytics delivery across multidisciplinary engineering teams.",
+      "type": "Industry"
+    },
+    {
+      "period": "2021 — 2023",
+      "role": "Senior Data Scientist",
+      "organization": "State Street Corporation",
+      "location": "Boston, United States",
+      "description": "Contributed to analytics products, validation, risk reporting, data pipelines, and cross-functional technical planning.",
+      "type": "Industry"
+    },
+    {
+      "period": "2020 — 2021",
+      "role": "Technical Program Manager, Data Analytics",
+      "organization": "Motional AD",
+      "location": "Boston, United States",
+      "description": "Partnered with autonomous-vehicle testing, safety, and data teams on metrics, reporting quality and evidence-led decisions.",
+      "type": "Industry"
+    },
+    {
+      "period": "2018 — 2019",
+      "role": "IT Technical Data Scientist, Engineering R&D",
+      "organization": "Cummins Inc.",
+      "location": "United States",
+      "description": "Developed engineering analytics and dashboards, automating reporting to support product and operational decision-making.",
+      "type": "Industry"
+    },
+    {
+      "period": "2011 — 2020",
+      "role": "Earlier data and software roles",
+      "organization": "Cognizant · CPS Global Technologies · System Soft Technologies",
+      "location": "India / United States",
+      "description": "Experience in programming, statistical analysis, software requirements, automation, visualization, and data-driven business systems.",
+      "type": "Industry"
+    }
+  ],
+  "education": [
+    {
+      "year": "2023 — Present",
+      "degree": "Ph.D. Candidate, Information Systems Engineering",
+      "school": "Concordia University",
+      "note": "Montréal, Canada · Expected completion: 2027"
+    },
+    {
+      "year": "2021 — 2023",
+      "degree": "Doctoral studies, Information Systems",
+      "school": "University of Massachusetts Lowell",
+      "note": "Transferred"
+    },
+    {
+      "year": "2018",
+      "degree": "M.S., Applied Data Science",
+      "school": "Indiana University Indianapolis",
+      "note": "Graduate study in data science and analytics"
+    },
+    {
+      "year": "2016",
+      "degree": "Postgraduate Diploma, Project & Operations Management",
+      "school": "Ara Institute of Canterbury",
+      "note": "Project and operations management"
+    },
+    {
+      "year": "2011",
+      "degree": "B.Tech., Information Technology",
+      "school": "West Bengal University of Technology",
+      "note": "Undergraduate degree in information technology"
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/photos/uemcon-2024-presentation-stage.jpg",
+      "alt": "Swarnamouli Majumdar presenting at IBM Research during IEEE UEMCON 2024.",
+      "title": "IEEE UEMCON 2024 presentation",
+      "caption": "IBM T. J. Watson Research Center · Enhancing Fire Safety with UAV Real-Time 3D Mapping and Hotspot Detection"
+    },
+    {
+      "image": "assets/photos/uemcon-2024-group-photo.jpg",
+      "alt": "Swarnamouli Majumdar with collaborators at IEEE UEMCON 2024 at IBM Research.",
+      "title": "IEEE UEMCON 2024 conference photo",
+      "caption": "With collaborators at IBM Research, New York"
+    },
+    {
+      "image": "assets/photos/icaciml-2026-keynote.jpg",
+      "alt": "Swarnamouli Majumdar speaking with a microphone at ICACIML 2026 at ICFAI Tech, Hyderabad.",
+      "title": "Keynote · ICACIML 2026",
+      "caption": "Artificial Intelligence for Safer Cities and Communities · Hyderabad, March 2026"
+    },
+    {
+      "image": "assets/photos/icaciml-2026-panel.jpg",
+      "alt": "Swarnamouli Majumdar taking part in a panel discussion at ICACIML 2026.",
+      "title": "Industry panel · ICACIML 2026",
+      "caption": "Redefining Human Intelligence · Hyderabad, March 2026"
+    },
+    {
+      "image": "assets/photos/ccncps-2025-best-paper-award.jpg",
+      "alt": "Swarnamouli Majumdar receiving an onsite Best Paper certificate at CCNCPS 2025.",
+      "title": "Onsite Best Paper · CCNCPS 2025",
+      "caption": "University of Dubai · June 2025"
+    },
+    {
+      "image": "assets/photos/ccncps-2025-firefighting.jpg",
+      "alt": "Swarnamouli Majumdar presenting a firefighting safety monitoring talk at CCNCPS 2025.",
+      "title": "Firefighting safety talk · CCNCPS 2025",
+      "caption": "Leveraging IoT for enhanced incident response and safety monitoring"
+    },
+    {
+      "image": "assets/photos/incit-2025-award-ceremony.jpg",
+      "alt": "Swarnamouli Majumdar receives a Best Paper Award certificate on stage at InCIT 2025.",
+      "title": "Best Paper Award · InCIT 2025",
+      "caption": "Agentic AI for Mission Adaptation · November 2025"
+    },
+    {
+      "image": "assets/photos/zenext-5x5-booth.jpg",
+      "alt": "Swarnamouli Majumdar at the Zenext AI demo booth during a public safety summit.",
+      "title": "Zenext AI demo booth · 5×5 Summit",
+      "caption": "Hands-free voice AI for public safety demonstrations"
+    },
+    {
+      "image": "assets/photos/ces-2025-portrait.jpg",
+      "alt": "Swarnamouli Majumdar at CES 2025 in front of a conference backdrop.",
+      "title": "CES 2025",
+      "caption": "Public-safety technology and connected innovation"
+    },
+    {
+      "image": "assets/photos/tech-to-protect-demo.jpg",
+      "alt": "Swarnamouli Majumdar demonstrating a public-safety prototype at Tech to Protect.",
+      "title": "Tech to Protect Challenge",
+      "caption": "Live demonstration of an early hands-free public-safety assistant"
+    },
+    {
+      "image": "assets/photos/ieee-icce-2025-presentation.jpg",
+      "alt": "Swarnamouli Majumdar presenting research on intelligent drones for emergency response.",
+      "title": "Intelligent drones · IEEE ICCE 2025",
+      "caption": "Transforming emergency response and mission-critical operations"
+    },
+    {
+      "image": "assets/photos/uem-talk-closeup.jpg",
+      "alt": "Swarnamouli Majumdar speaking at an institutional event while holding a microphone.",
+      "title": "Institutional invited talk",
+      "caption": "Voice AI, emergency response, and hands-free systems"
+    },
+    {
+      "image": "assets/photos/autonomous-vehicles-research-presentation.jpg",
+      "alt": "Swarnamouli Majumdar presenting a slide on perceptions of autonomous vehicles among road users.",
+      "title": "Autonomous-vehicle research presentation",
+      "caption": "Road-user trust, safety perceptions, and adoption readiness"
+    },
+    {
+      "image": "assets/photos/incit-2025-conference.jpg",
+      "alt": "Swarnamouli Majumdar standing at the InCIT 2025 conference venue.",
+      "title": "Conference community · InCIT 2025",
+      "caption": "Connecting with international computing researchers"
+    }
+  ],
+  "media": [
+    {
+      "id": "zero-trust-bioengineer-2026",
+      "date": "2026-10-29",
+      "date_label": "29 October 2026",
+      "category": "coverage",
+      "type": "Research coverage",
+      "outlet": "Bioengineer.org",
+      "title": "Zero Trust Framework Proposed to Secure Autonomous Police and Rescue Drones",
+      "summary": "Coverage of research by Swarnamouli Majumdar and Anjali Awasthi proposing a six-layer Zero Trust governance framework for public-safety UAVs, including safeguards for AI reasoning, tool use, human authorization, and audit records.",
+      "url": "https://bioengineer.org/zero-trust-framework-proposed-to-secure-autonomous-police-and-rescue-drones/",
+      "related": [
+        {
+          "label": "Original coverage on Scienmag",
+          "url": "https://scienmag.com/zero-trust-framework-proposed-to-secure-autonomous-police-and-rescue-drones/"
+        },
+        {
+          "label": "Read the peer-reviewed paper",
+          "url": "https://doi.org/10.1007/s44430-026-00042-4"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "skysentience-scienmag-2026",
+      "date": "2026-09-20",
+      "date_label": "20 September 2026",
+      "category": "coverage",
+      "type": "Research coverage",
+      "outlet": "Scienmag",
+      "title": "SkySentience Framework Aims to Keep Police Drones Accountable Before Incidents Escalate",
+      "summary": "A feature on the SkySentience conceptual framework, highlighting transparent, human-supervised UAV decision support, community oversight, and a proposed evaluation pathway—not a field-tested deployment.",
+      "url": "https://scienmag.com/skysentience-framework-aims-to-keep-police-drones-accountable-before-incidents-escalate/",
+      "related": [
+        {
+          "label": "Read the journal article",
+          "url": "https://doi.org/10.1007/s44564-026-00018-x"
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "keynote-icaciml-2026",
+      "date": "2026-03-26",
+      "date_label": "26 March 2026",
+      "category": "events",
+      "type": "Keynote & industry panel",
+      "outlet": "ICACIML 2026 · IFHE Hyderabad",
+      "title": "Artificial Intelligence for Safer Cities and Communities",
+      "summary": "The official March 26 program lists Swarnamouli Majumdar for the keynote “Artificial Intelligence for Safer Cities and Communities” and the industry panel “Redefining Human Intelligence: AI, Emotional, and Cognitive Diversity.” Photographs from the event are featured in the speaking gallery.",
+      "url": "https://ifheindia.org/icfai-tech-school-hyderabad/ICACIML-2026",
+      "related": [
+        {
+          "label": "View conference photographs",
+          "url": "gallery.html#icaciml-2026"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "smart-firefighting-2024",
+      "date": "2024-11-07",
+      "date_label": "7 November 2024",
+      "category": "interviews",
+      "type": "Podcast interview",
+      "outlet": "Smart Firefighting",
+      "title": "Automating Tasks for First Responders with Zenext AI — Episode 248",
+      "summary": "An interview with Swarnamouli Majumdar on voice-based AI assistance for first responders, hands-free information access, incident documentation, and the evolution of Zenext AI.",
+      "url": "https://smartfirefighting.podbean.com/e/episode-248-automating-tasks-for-first-responders-with-zenext-ai-with-swarnamouli-majumdar/",
+      "related": [
+        {
+          "label": "Listen on Apple Podcasts",
+          "url": "https://podcasts.apple.com/us/podcast/episode-248-automating-tasks-for-first-responders-with/id1316123600?i=1000676127264"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "urgent-comms-2024",
+      "date": "2024-07-12",
+      "date_label": "12 July 2024",
+      "category": "interviews",
+      "type": "Industry interview",
+      "outlet": "Urgent Communications",
+      "title": "Zenext AI: Swarnamouli Majumdar Explains Hands-Free Communications for Responders",
+      "summary": "Editor Donny Jackson interviews Swarnamouli at the 2024 5×5 Public Safety Innovation Summit about voice-enabled technology intended to help responders communicate without operating a device by hand.",
+      "url": "https://urgentcomm.com/ai-analytics/zenext-ai-swarnamouli-majumdar-explains-how-voice-enabled-tech-supports-hands-free-comms-for-responders",
+      "related": [],
+      "featured": true
+    },
+    {
+      "id": "startupcanada-profile-2024",
+      "date": "2024",
+      "date_label": "2024",
+      "category": "institutional",
+      "type": "Founder profile",
+      "outlet": "Startup Canada",
+      "title": "Swarnamouli Majumdar — Founder & CEO, Zenext AI",
+      "summary": "Startup Canada's community profile introduces Swarnamouli's leadership in voice AI for emergency response and her work connecting technical research, entrepreneurship, and public impact.",
+      "url": "https://www.startupcan.ca/community/swarnamouli-majumdar/",
+      "related": [],
+      "featured": false
+    },
+    {
+      "id": "iu-alumna-2021",
+      "date": "2021-11-18",
+      "date_label": "18 November 2021",
+      "category": "institutional",
+      "type": "University feature",
+      "outlet": "Indiana University",
+      "title": "From Automotives to Investments: An Applied Data Science Alumna's Career Journey",
+      "summary": "An Indiana University alumni profile tracing Swarnamouli's path through engineering analytics, autonomous-vehicle technology, and financial data science.",
+      "url": "https://news.iu.edu/luddy/live/news/44242-from-automotives-to-investments-an-applied-data",
+      "related": [],
+      "featured": false
+    },
+    {
+      "id": "nist-team-2020",
+      "date": "2020-06-25",
+      "date_label": "25 June 2020",
+      "category": "institutional",
+      "type": "Government recognition",
+      "outlet": "NIST / PSCR",
+      "title": "Team Zenext — Tech to Protect Challenge",
+      "summary": "A NIST Public Safety Communications Research spotlight on Team Zenext, naming Swarnamouli Majumdar as the team speaker and recognizing the team among the competition's top contestants.",
+      "url": "https://www.nist.gov/ctl/pscr/team-zenext",
+      "related": [],
+      "featured": false
+    },
+    {
+      "id": "iu-team-award-2020",
+      "date": "2020-05-20",
+      "date_label": "20 May 2020",
+      "category": "coverage",
+      "type": "University news",
+      "outlet": "Indiana University",
+      "title": "IUPUI Team Awarded $112,500 to Advance Voice AI for Law Enforcement",
+      "summary": "Indiana University reports NIST Tech to Protect Challenge support for the Zenext team and Swarnamouli's role as program manager and technical lead in data science and artificial intelligence.",
+      "url": "https://news.iu.edu/live/news/26875-iupui-team-awarded-112500-to-advance-work-on-voice",
+      "related": [],
+      "featured": false
+    },
+    {
+      "id": "iu-tech-protect-2020",
+      "date": "2020-01-27",
+      "date_label": "27 January 2020",
+      "category": "coverage",
+      "type": "University news",
+      "outlet": "Indiana University",
+      "title": "Students Win Tech to Protect Challenge, Innovate Informatics Solutions for First Responders",
+      "summary": "Indiana University's early coverage of the team's Tech to Protect Challenge results, including ZENEXT, ALIKE cloud fire safety, and Secure Matrix concepts.",
+      "url": "https://news.iu.edu/luddy/live/news/44197-students-win-tech-to-protect-challenge-innovate",
+      "related": [],
+      "featured": false
+    },
+    {
+      "id": "kustom-signals-virtual-assistants-law-enforcement",
+      "date": "2020-06-01",
+      "date_label": "2020",
+      "category": "coverage",
+      "type": "Industry feature",
+      "outlet": "Kustom Signals",
+      "title": "Are Virtual Assistants about to Take-Off in Global Law Enforcement?",
+      "summary": "An industry feature on virtual assistants in policing highlighted Zenext as an example of voice-command support for law-enforcement workflows and included commentary on human-centered design from Majumdar Swarnamouli.",
+      "url": "https://kustomsignals.com/blog/are-virtual-assistants-about-to-take-off-in-global-law-enforcement",
+      "related": [
+        {
+          "label": "Explore the prototype-to-product gallery",
+          "url": "gallery.html#innovation-demos"
+        }
+      ],
+      "featured": false
+    },
+    {
+      "id": "linkedin-aiforgood-publicsafety-autonomoussystems",
+      "date": "2026-10-01",
+      "date_label": "October 2026",
+      "category": "events",
+      "type": "Public engagement",
+      "outlet": "LinkedIn",
+      "title": "AI for Good, public safety, and autonomous systems",
+      "summary": "A public post sharing work at the intersection of AI for good, public safety, and autonomous systems, reflecting the broader mission behind the research and demonstration portfolio featured on this site.",
+      "url": "https://www.linkedin.com/posts/swarnamouli_aiforgood-publicsafety-autonomoussystems-share-7453138461215326208-czos/",
+      "related": [
+        {
+          "label": "View the conference and demo gallery",
+          "url": "gallery.html"
+        }
+      ],
+      "featured": false
+    }
+  ]
+}

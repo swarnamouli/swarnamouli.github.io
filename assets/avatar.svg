@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" role="img" aria-label="Swarnamouli Majumdar monogram art">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#b97872"/><stop offset=".46" stop-color="#dbb2a3"/><stop offset="1" stop-color="#efddd0"/></linearGradient>
+  <linearGradient id="disc" x1="0" x2="1" y1="1" y2="0"><stop stop-color="#693c43"/><stop offset="1" stop-color="#9a6163"/></linearGradient>
+  <pattern id="grain" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".6" fill="#ffffff" opacity=".2"/></pattern>
+  <filter id="soft"><feGaussianBlur stdDeviation="36"/></filter>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/>
+<circle cx="730" cy="160" r="250" fill="#f8ebe3" opacity=".25" filter="url(#soft)"/>
+<circle cx="112" cy="832" r="290" fill="#7b4a4c" opacity=".23" filter="url(#soft)"/>
+<g fill="none" stroke="#ffffff" opacity=".38">
+  <circle cx="399" cy="470" r="310" stroke-width="1"/><circle cx="399" cy="470" r="240" stroke-width="1"/><circle cx="399" cy="470" r="170" stroke-width="1"/>
+  <path d="M400 10V993M0 472H800M92 158L695 812M702 154L100 802" stroke-width=".8" stroke-dasharray="2 10"/>
+</g>
+<g opacity=".72" fill="#fff"><circle cx="400" cy="160" r="4"/><circle cx="639" cy="471" r="5"/><circle cx="160" cy="470" r="5"/><circle cx="398" cy="709" r="4"/></g>
+<circle cx="400" cy="468" r="168" fill="url(#disc)" opacity=".96"/>
+<circle cx="400" cy="468" r="155" fill="none" stroke="#fff" stroke-opacity=".24"/>
+<text x="400" y="514" text-anchor="middle" fill="#fff6ef" font-family="Georgia,serif" font-style="italic" font-size="150" letter-spacing="-15">SM</text>
+<rect x="-20" y="820" width="840" height="190" fill="#492d35" opacity=".86"/>
+<text x="400" y="888" text-anchor="middle" fill="#f5d6ce" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">RESEARCH • TECHNOLOGY • PURPOSE</text>
+<path d="M270 921H530" stroke="#ebc4b5" stroke-width="1" opacity=".8"/>
+<text x="400" y="959" text-anchor="middle" fill="#fff6f1" font-family="Georgia,serif" font-size="28">Swarnamouli Majumdar</text>
+<rect width="800" height="1000" fill="url(#grain)" opacity=".4"/>
+</svg>
